@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+#Kafka Properties
+spring:
+  kafka:
+    consumer:
+      topic: product_data
+      bootstrap-servers: localhost:9092
+      group-id: vegasahoo
+      auto-offset-reset: earliest
+      enabled: true
+
